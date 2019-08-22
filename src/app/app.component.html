@@ -1,21 +1,886 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+  <!-- BEGAIN PRELOADER -->
+  <!-- <div id="preloader">
+    <div class="loader">&nbsp;</div>
+  </div> -->
+  <!-- END PRELOADER -->
 
+  <!-- SCROLL TOP BUTTON -->
+  <a class="scrollToTop" href="#"><i class="fa fa-chevron-up"></i></a>
+  <!-- END SCROLL TOP BUTTON -->
+
+  <!-- Start header section -->
+  <header id="header">
+    <div class="header-inner">
+      <!-- Header image -->
+      <img src="../assets/images/header-bg.jpg" alt="img">
+      <div class="header-overlay">
+        <div class="header-content">
+          <!-- Start header content slider -->
+          <h2 class="header-slide">WE PROVIDE
+            <span>SOFTWARE DESGIGN & DEVELOPMENT </span>
+            <span>ONLINE TECH TRAINING</span>
+            <span>JOB SUPPORT ON ANY TECHNOLOGY</span>
+            <span>MOBILE APPS DEVELOPMENT</span>
+            <span>TESTING SERVICES</span>
+            <span>SYSTEM INTEGRATION</span>
+            <span>JOB INTERVIEW PREPRATION</span>
+          </h2>
+          <!-- End header content slider -->
+          <!-- Header btn area -->
+          <div class="header-btn-area">
+            <a class="knowmore-btn" id='knowMore'>KNOW MORE</a>
+            <a class="download-btn" id='ourServices'>OUR SERVICES</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- End header section -->
+
+  <!-- Start menu section -->
+  <section id="menu-area">
+    <nav class="navbar navbar-default main-navbar" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <!-- FOR MOBILE VIEW COLLAPSED BUTTON -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+            aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- LOGO -->
+          <a class="navbar-brand logo" href="index.html"><img src="../assets/images/logo.jpg" alt="nSquareIT.tech"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul id="top-menu" class="nav navbar-nav main-nav menu-scroll">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <!-- <li><a href="#team">TEAM</a></li> -->
+            <li><a href="#service">SERVICE</a></li>
+            <!-- <li><a href="#portfolio">PORTFOLIO</a></li> -->
+            <!-- <li><a href="#pricing-table">PRICE </a></li> -->
+            <li><a href="#from-blog">BLOG </a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+        <!--/.nav-collapse -->
+        <!-- <div class="search-area">
+          <form action="">
+            <input id="search" name="search" type="text" placeholder="What're you looking for ?">
+            <input id="search_submit" value="Rechercher" type="submit">
+          </form>
+        </div> -->
+      </div>
+    </nav>
+  </section>
+  <!-- End menu section -->
+
+  <!-- Start about section -->
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <!-- Start welcome area -->
+          <div class="welcome-area">
+            <div class="title-area">
+              <h2 class="tittle">Welcome to <span>nSquareIT.tech</span></h2>
+              <span class="tittle-line"></span>
+              <p>Best help is always our guarantee.</p>
+            </div>
+            <div class=" row welcome-content">
+              <div class="col-md-12">
+                <ul class="">
+                  <li class="col-md-3 col-sm-6">
+                    <div class="single-wc-content wow fadeInUp">
+                      <span class="fa fa-users wc-icon"></span>
+                      <h4 class="wc-tittle">Creative concept</h4>
+                      <p> </p>
+                    </div>
+                  </li>
+                  <li class="col-md-3 col-sm-6">
+                    <div class="single-wc-content wow fadeInUp">
+                      <span class="fa fa-sellsy wc-icon"></span>
+                      <h4 class="wc-tittle">interface design</h4>
+                      <p> </p>
+                    </div>
+                  </li>
+                  <li class="col-md-3 col-sm-6">
+                    <div class="single-wc-content wow fadeInUp">
+                      <span class="fa fa-line-chart wc-icon"></span>
+                      <h4 class="wc-tittle">strategy</h4>
+                      <p> </p>
+                    </div>
+                  </li>
+                  <li class="col-md-3 col-sm-6">
+                    <div class="single-wc-content wow fadeInUp">
+                      <span class="fa fa-bus wc-icon"></span>
+                      <h4 class="wc-tittle">business solution</h4>
+                      <p> </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- End welcome area -->
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="about-area">
+            <div class="row">
+              <div class="col-md-5 col-sm-6 col-xs-12">
+                <div class="about-left wow fadeInLeft">
+                  <img src="../assets/images/about-img.jpg" alt="img">
+                  <!-- <a class="introduction-btn" href="#">Introduction</a> -->
+                </div>
+              </div>
+              <div class="col-md-7 col-sm-6 col-xs-12">
+                <div class="about-right wow fadeInRight">
+                  <div class="title-area">
+                    <h2 class="tittle">About <span>nSquareIT.tech</span> team</h2>
+                    <span class="tittle-line"></span>
+                    <p><b>nSquareIT.tech</b> is hub of industries professionals in every domain of IT. We have the best
+                      tech export who are always willing to take new challenge.</p>
+                    <p><b>nSquareIT.tech</b> is a pioneer Institute in software training and providing Project
+                      Guidance,
+                      Technology Workshops and IT Consulting . It started and managed by real time Software employees.
+                      Every course that we have in our institute is taught by real time software professionals and have
+                      huge experience in the respected field</p>
+                    <!-- <div class="about-btn-area">
+                      <a href="#" class="button button-default" data-text="KNOW MORE"><span>KNOW MORE</span></a>
+                    </div>                     -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End about section -->
+
+  <!-- Start call to action -->
+  <section id="call-to-action">
+    <img src="../assets/images/call-to-action-bg.png" alt="img">
+    <div class="call-to-overlay">
+      <div class="container">
+        <div class="call-to-content wow fadeInUp">
+          <h2>The most impressive services you will find from us.</h2>
+          <a id='getItNow' class="button button-default" data-text="GET IT NOW"><span>GET IT NOW</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End call to action -->
+
+  <!-- Start Team action -->
+  <!-- commenting as of now -->
+  <!-- <section id="team">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="team-area">
+            <div class="title-area">
+              <h2 class="tittle">Meet our team</h2>
+              <span class="tittle-line"></span>
+              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto</p>
+            </div>
+            <div class="team-content">
+              <ul class="team-grid">
+                <li>
+                  <div class="team-item team-img-1 wow fadeInUp">
+                    <div class="team-info">
+                      <p> I must explain to you how all this mistaken idea of denouncing pleasure n</p>
+                      <a href="#"><span class="fa fa-facebook"></span></a>
+                      <a href="#"><span class="fa fa-twitter"></span></a>
+                      <a href="#"><span class="fa fa-pinterest"></span></a>
+                      <a href="#"><span class="fa fa-rss"></span></a>
+                    </div>
+                  </div>
+                  <div class="team-address">
+                    <p>John Richerd</p>
+                    <span>CEO & Founder</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="team-item team-img-2 wow fadeInUp">
+                    <div class="team-info">
+                      <p> I must explain to you how all this mistaken idea of denouncing pleasure n</p>
+                      <a href="#"><span class="fa fa-facebook"></span></a>
+                      <a href="#"><span class="fa fa-twitter"></span></a>
+                      <a href="#"><span class="fa fa-pinterest"></span></a>
+                      <a href="#"><span class="fa fa-rss"></span></a>
+                    </div>
+                  </div>
+                  <div class="team-address">
+                    <p>MIKE BATTON</p>
+                    <span>Co-founder</span>                  
+                  </div>
+                </li>
+                <li>
+                  <div class="team-item team-img-3 wow fadeInUp">
+                    <div class="team-info">
+                      <p> I must explain to you how all this mistaken idea of denouncing pleasure n</p>
+                      <a href="#"><span class="fa fa-facebook"></span></a>
+                      <a href="#"><span class="fa fa-twitter"></span></a>
+                      <a href="#"><span class="fa fa-pinterest"></span></a>
+                      <a href="#"><span class="fa fa-rss"></span></a>
+                    </div>
+                  </div>
+                  <div class="team-address">
+                    <p>JOHN VICK</p>
+                    <span>Developer</span>
+                  </div>
+                </li>
+                  <li>
+                  <div class="team-item team-img-4 wow fadeInUp">
+                    <div class="team-info">
+                      <p> I must explain to you how all this mistaken idea of denouncing pleasure n</p>
+                      <a href="#"><span class="fa fa-facebook"></span></a>
+                      <a href="#"><span class="fa fa-twitter"></span></a>
+                      <a href="#"><span class="fa fa-pinterest"></span></a>
+                      <a href="#"><span class="fa fa-rss"></span></a>
+                    </div>
+                  </div>
+                  <div class="team-address">
+                    <p>ROB HANSOM</p>
+                    <span>Senior designer</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <!-- Start Team action -->
+
+  <!-- Start service section -->
+  <section id="service">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="service-area">
+            <div class="title-area">
+              <h2 class="tittle">Services we offer</h2>
+              <span class="tittle-line"></span>
+              <p>nSquareIT.tech is designed to help organizations and individuals efficiently and effectively address
+                their business
+                needs and challenges across multiple domains.</p>
+            </div>
+            <!-- service content -->
+            <div class="service-content">
+              <ul class="service-table">
+                <li class="col-md-3 col-sm-6">
+                  <div class="single-service wow slideInUp">
+                    <span class="fa fa-map-o service-icon"></span>
+                    <h4 class="service-title">Job support on all IT technologies</h4>
+                    <p>If you are facing some challenge related to your work in your current job, nSquareIT.tech
+                      provide
+                      best job support help on all technologies.</p>
+                    <!-- <a href="#" class="button button-default" data-text="Read More"><span>Read More</span></a> -->
+                  </div>
+                </li>
+                <li class="col-md-3 col-sm-6">
+                  <div class="single-service wow slideInUp">
+                    <span class="fa fa-sort-amount-asc service-icon"></span>
+                    <h4 class="service-title">Online training on all IT technologies</h4>
+                    <p>nSquareIT.tech is one of the world’s best rated professional online trainings institute offering
+                      the latest trending software technologies.</p>
+                    <!-- <a href="#" class="button button-default" data-text="Read More"><span>Read More</span></a> -->
+                  </div>
+                </li>
+                <li class="col-md-3 col-sm-6">
+                  <div class="single-service wow slideInUp">
+                    <span class="fa fa-edit service-icon"></span>
+                    <h4 class="service-title">Web & Software development</h4>
+                    <p>From concept to code, development to deployment, nSquareIT.tech has experience providing custom
+                      IT
+                      solutions that accelerate workflow.</p>
+                    <!-- <a href="#" class="button button-default" data-text="Read More"><span>Read
+                        More</span></a> -->
+                  </div>
+                </li>
+                <li class="col-md-3 col-sm-6">
+                  <div class="single-service wow slideInUp">
+                    <span class="fa fa-rocket service-icon"></span>
+                    <h4 class="service-title">MOBILE Apps development</h4>
+                    <p>nSquareIT.tech team wil help you to get your
+                      business information to the most fascinating mobile
+                      application platforms, including
+                      iPhone & Android. </p>
+                    <!-- <a href="#" class="button button-default" data-text="Read More"><span>Read
+                        More</span></a> -->
+                  </div>
+                </li>
+                <!-- <li class="col-md-3 col-sm-6">
+                  <div class="single-service wow slideInUp">
+                    <span class="fa fa-car service-icon"></span>
+                    <h4 class="service-title">Usibility</h4>
+                    <p>At vero eos et accusa mus odio in dignissimos ducimus qui anditiis the tatum</p>
+                  </div>
+                </li>
+                <li class="col-md-3 col-sm-6">
+                  <div class="single-service wow slideInUp">
+                    <span class="fa fa-bank service-icon"></span>
+                    <h4 class="service-title">Business solution</h4>
+                    <p>At vero eos et accusa mus odio in dignissimos ducimus qui anditiis the tatum</p>
+                  </div>
+                </li>
+                <li class="col-md-3 col-sm-6">
+                  <div class="single-service wow slideInUp">
+                    <span class="fa fa-user-secret service-icon"></span>
+                    <h4 class="service-title">Creative concept</h4>
+                    <p>At vero eos et accusa mus odio in dignissimos ducimus qui anditiis the tatum</p>
+                  </div>
+                </li>
+                <li class="col-md-3 col-sm-6">
+                  <div class="single-service wow slideInUp">
+                    <span class="fa fa-support service-icon"></span>
+                    <h4 class="service-title">Support</h4>
+                    <p>At vero eos et accusa mus odio in dignissimos ducimus qui anditiis the tatum</p>
+                  </div>
+                </li> -->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End service section -->
+
+  <!-- Start Portfolio section -->
+  <!-- <section id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="portfolio-area">
+            <div class="title-area">
+              <h2 class="tittle">Recent portfolio</h2>
+              <span class="tittle-line"></span>
+              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam
+                rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto</p>
+            </div>
+            
+            <div class="portfolio-content">
+              
+              <div class="portfolio-menu">
+                <ul>
+                  <li class="filter" data-filter="all">All</li>
+                  <li class="filter" data-filter=".branding">Branding</li>
+                  <li class="filter" data-filter=".design">Design</li>
+                  <li class="filter" data-filter=".development">Development</li>
+                  <li class="filter" data-filter=".photography">Photography</li>
+                </ul>
+              </div>
+              
+              <div id="mixit-container" class="portfolio-container">
+                <div class="single-portfolio mix branding">
+                  <div class="single-item">
+                    <img src="../assets/images/portfolio-img-small1.jpg" alt="img">
+                    <div class="single-item-content">
+                      <div class="portfolio-social-icon">
+                        <a class="fancybox" data-fancybox-group="gallery" href="../assets/images/portfolio-img-big1.jpg"><i
+                            class="fa fa-eye"></i></a>
+                        <a class="link-btn" href="#"><i class="fa fa-link"></i></a>
+                      </div>
+                      <div class="portfolio-title">
+                        <h4>Mobile application</h4>
+                        <span>UI Design</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="single-portfolio mix design">
+                  <div class="single-item">
+                    <img src="../assets/images/portfolio-img-small2.jpg" alt="img">
+                    <div class="single-item-content">
+                      <div class="portfolio-social-icon">
+                        <a class="fancybox" data-fancybox-group="gallery" href="../assets/images/portfolio-img-big2.jpg"><i
+                            class="fa fa-eye"></i></a>
+                        <a class="link-btn" href="#"><i class="fa fa-link"></i></a>
+                      </div>
+                      <div class="portfolio-title">
+                        <h4>Mobile application</h4>
+                        <span>UI Design</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="single-portfolio mix development">
+                  <div class="single-item">
+                    <img src="../assets/images/portfolio-img-small3.jpg" alt="img">
+                    <div class="single-item-content">
+                      <div class="portfolio-social-icon">
+                        <a class="fancybox" data-fancybox-group="gallery" href="../assets/images/portfolio-img-big3.jpg"><i
+                            class="fa fa-eye"></i></a>
+                        <a class="link-btn" href="#"><i class="fa fa-link"></i></a>
+                      </div>
+                      <div class="portfolio-title">
+                        <h4>Mobile application</h4>
+                        <span>UI Design</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="single-portfolio mix photography">
+                  <div class="single-item">
+                    <img src="../assets/images/portfolio-img-small4.jpg" alt="img">
+                    <div class="single-item-content">
+                      <div class="portfolio-social-icon">
+                        <a class="fancybox" data-fancybox-group="gallery" href="../assets/images/portfolio-img-big4.jpg"><i
+                            class="fa fa-eye"></i></a>
+                        <a class="link-btn" href="#"><i class="fa fa-link"></i></a>
+                      </div>
+                      <div class="portfolio-title">
+                        <h4>Mobile application</h4>
+                        <span>UI Design</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="single-portfolio mix photography">
+                  <div class="single-item">
+                    <img src="../assets/images/portfolio-img-small5.jpg" alt="img">
+                    <div class="single-item-content">
+                      <div class="portfolio-social-icon">
+                        <a class="fancybox" data-fancybox-group="gallery" href="../assets/images/portfolio-img-big5.jpg"><i
+                            class="fa fa-eye"></i></a>
+                        <a class="link-btn" href="#"><i class="fa fa-link"></i></a>
+                      </div>
+                      <div class="portfolio-title">
+                        <h4>Mobile application</h4>
+                        <span>UI Design</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="single-portfolio mix photography">
+                  <div class="single-item">
+                    <img src="../assets/images/portfolio-img-small6.jpg" alt="img">
+                    <div class="single-item-content">
+                      <div class="portfolio-social-icon">
+                        <a class="fancybox" data-fancybox-group="gallery" href="../assets/images/portfolio-img-big6.jpg"><i
+                            class="fa fa-eye"></i></a>
+                        <a class="link-btn" href="#"><i class="fa fa-link"></i></a>
+                      </div>
+                      <div class="portfolio-title">
+                        <h4>Mobile application</h4>
+                        <span>UI Design</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="single-portfolio mix photography">
+                  <div class="single-item">
+                    <img src="../assets/images/portfolio-img-small7.jpg" alt="img">
+                    <div class="single-item-content">
+                      <div class="portfolio-social-icon">
+                        <a class="fancybox" data-fancybox-group="gallery" href="../assets/images/portfolio-img-big7.jpg"><i
+                            class="fa fa-eye"></i></a>
+                        <a class="link-btn" href="#"><i class="fa fa-link"></i></a>
+                      </div>
+                      <div class="portfolio-title">
+                        <h4>Mobile application</h4>
+                        <span>UI Design</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="single-portfolio mix photography">
+                  <div class="single-item">
+                    <img src="../assets/images/portfolio-img-small2.jpg" alt="img">
+                    <div class="single-item-content">
+                      <div class="portfolio-social-icon">
+                        <a class="fancybox" data-fancybox-group="gallery" href="../assets/images/portfolio-img-big2.jpg"><i
+                            class="fa fa-eye"></i></a>
+                        <a class="link-btn" href="#"><i class="fa fa-link"></i></a>
+                      </div>
+                      <div class="portfolio-title">
+                        <h4>Mobile application</h4>
+                        <span>UI Design</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <!-- End Portfolio section -->
+
+  <!-- Start counter section -->
+  <section id="counter">
+    <img src="../assets/images/counter-bg.jpg" alt="img">
+    <div class="counter-overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <!-- Start counter area -->
+            <div class="counter-area">
+              <div class="col-md-3 col-sm-6 col-xs-6">
+                <div class="single-counter">
+                  <span class="fa fa-users"></span>
+                  <div class="counter-count">
+                    <span class="counter">46</span>
+                    <p>Happy Clients</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-6">
+                <div class="single-counter">
+                  <span class="fa fa-bus"></span>
+                  <div class="counter-count">
+                    <span class="counter">78</span>
+                    <p>Project delivery</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-6">
+                <div class="single-counter">
+                  <span class="fa fa-twitter"></span>
+                  <div class="counter-count">
+                    <span class="counter">1050</span>
+                    <p>Followers</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-6">
+                <div class="single-counter">
+                  <span class="fa fa-tasks"></span>
+                  <div class="counter-count">
+                    <span class="counter">90</span>
+                    <p>Project done</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End counter section -->
+
+  <!-- Start Pricing Table section -->
+  <!-- <section id="pricing-table">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="pricing-table-area">
+            <div class="title-area">
+              <h2 class="tittle">Pricing table</h2>
+              <span class="tittle-line"></span>
+              <p>unde omnis iste natus error sit voluptatem accusantium doloremque laudantium aperiam, eaque ipsa quae
+                ab illo inventore veritatis et quasi architecto</p>
+            </div>
+            
+            <div class="pricing-table-content">
+              <ul class="price-table">
+                <li class="wow slideInUp">
+                  <div class="single-price">
+                    <h4 class="price-header">Basic</h4>
+                    <span class="price-amount">$0.00/mo</span>
+                    <p>5GB Storage</p>
+                    <p>1GB RAM</p>
+                    <p>400GB Bandwidth</p>
+                    <p>10 Email Address</p>
+                    <p>Unlimited access</p>
+                    <p>Forum Support</p>
+                    <a data-text="SIGN UP" class="button button-default" href="#"><span>SIGN UP</span></a>
+                  </div>
+                </li>
+                <li class="wow slideInUp">
+                  <div class="single-price standard-price">
+                    <h4 class="price-header">Standard</h4>
+                    <span class="price-amount">$10.00/mo</span>
+                    <p>5GB Storage</p>
+                    <p>1GB RAM</p>
+                    <p>400GB Bandwidth</p>
+                    <p>10 Email Address</p>
+                    <p>Unlimited access</p>
+                    <p>Forum Support</p>
+                    <a data-text="SIGN UP" class="button button-default" href="#"><span>SIGN UP</span></a>
+                  </div>
+                </li>
+                <li class="wow slideInUp">
+                  <div class="single-price">
+                    <h4 class="price-header">Advance</h4>
+                    <span class="price-amount">$19.00/mo</span>
+                    <p>5GB Storage</p>
+                    <p>1GB RAM</p>
+                    <p>400GB Bandwidth</p>
+                    <p>10 Email Address</p>
+                    <p>Unlimited access</p>
+                    <p>Forum Support</p>
+                    <a data-text="SIGN UP" class="button button-default" href="#"><span>SIGN UP</span></a>
+                  </div>
+                </li>
+                <li class="wow slideInUp">
+                  <div class="single-price">
+                    <h4 class="price-header">Mighty</h4>
+                    <span class="price-amount">$39.00/mo</span>
+                    <p>5GB Storage</p>
+                    <p>1GB RAM</p>
+                    <p>400GB Bandwidth</p>
+                    <p>10 Email Address</p>
+                    <p>Unlimited access</p>
+                    <p>Forum Support</p>
+                    <a data-text="SIGN UP" class="button button-default" href="#"><span>SIGN UP</span></a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <!-- End Pricing Table section -->
+
+  <!-- Start Testimonial section -->
+  <!-- <section id="testimonial">
+    <img src="../assets/images/testimonial-bg.jpg" alt="img">
+    <div class="counter-overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            
+            <div class="testimonial-area">
+              <div class="title-area">
+                <h2 class="tittle">What people say about us</h2>
+                <span class="tittle-line"></span>
+              </div>
+              <div class="testimonial-conten">
+               
+                <div class="testimonial-slider">
+                  
+                  <div class="single-slide">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamcoquat.
+                      Duis aute irure d olor in reprehenderit</p>
+                    <div class="single-testimonial">
+                      <img class="testimonial-thumb" src="../assets/images/testimonial-image1.png" alt="img">
+                      <p>Jonna Hike</p>
+                      <span>CEO, Themeforest</span>
+                    </div>
+                  </div>
+                  
+                  <div class="single-slide">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamcoquat.
+                      Duis aute irure d olor in reprehenderit</p>
+                    <div class="single-testimonial">
+                      <img class="testimonial-thumb" src="../assets/images/team-member2.png" alt="img">
+                      <p>Jonna Hike</p>
+                      <span>CEO, Themeforest</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <!-- End Testimonial section -->
+
+  <!-- Start from blog section -->
+  <section id="from-blog">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="from-blog-area">
+            <div class="title-area">
+              <h2 class="tittle">Our Blogs</h2>
+              <span class="tittle-line"></span>
+              <!-- <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime
+                placeat facere possimus, omnis voluptas assumenda est</p> -->
+            </div>
+            <!-- From Blog content -->
+            <div class="from-blog-content">
+              <div class="row">
+                <div class="col-md-4">
+                  <article class="single-from-blog">
+                    <figure>
+                      <a target="_blank" href="http://onlyforcoder.blogspot.com/2018/05/angular-6-what-are-new-features-of-angular6.html"><img
+                          src="../assets/images/angular6.png" alt="img"></a>
+                    </figure>
+                    <div class="blog-title">
+                      <h2><a target="_blank" href="http://onlyforcoder.blogspot.com/2018/05/angular-6-what-are-new-features-of-angular6.html">New
+                          features of Angular 6</a></h2>
+                      <p>Posted by <a class="blog-admin" href="#">Nimish</a> on <span class="blog-date">8th nov, 2017</span></p>
+                    </div>
+                    <p>You must be aware that latest version of angular, Angular 6 is released on 3rd May 2018 and if
+                      you are looking for the new features of angular 6, then this tutorial is for you. </p>
+                    <div class="blog-footer">
+                      <a target="_blank" href="http://onlyforcoder.blogspot.com/2018/05/angular-6-what-are-new-features-of-angular6.html"><span
+                          class="fa fa-comment"></span>90 Comments</a>
+                      <a target="_blank" href="http://onlyforcoder.blogspot.com/2018/05/angular-6-what-are-new-features-of-angular6.html"><span
+                          class="fa fa-thumbs-o-up"></span>350 Likes</a>
+                    </div>
+                  </article>
+                </div>
+                <div class="col-md-4">
+                  <article class="single-from-blog">
+                    <figure>
+                      <a target="_blank" href="blog-single.html"><img src="../assets/images/angular5.png" alt="img"></a>
+                    </figure>
+                    <div class="blog-title">
+                      <h2><a target="_blank" href="blog-single.html">Upgrade to Angular 5.</a></h2>
+                      <p>Posted by <a class="blog-admin" href="#">Nimish</a> on <span class="blog-date">8th may, 2017</span></p>
+                    </div>
+                    <p>If you are still working on angular 2, 4 then it is the time to upgrade your application to
+                      angular 5. Angular 5(also called Pentagonal-donut) has a lot of new features like better
+                      performance, small bundling and a lot. </p>
+                    <div class="blog-footer">
+                      <a target="_blank" href="#"><span class="fa fa-comment"></span>8 Comments</a>
+                      <a target="_blank" href="#"><span class="fa fa-thumbs-o-up"></span>35 Likes</a>
+                    </div>
+                  </article>
+                </div>
+                <div class="col-md-4">
+                  <article class="single-from-blog">
+                    <figure>
+                      <a target="_blank" href="blog-single.html"><img src="../assets/images/typescript.png" alt="img"></a>
+                    </figure>
+                    <div class="blog-title">
+                      <h2><a target="_blank" href="blog-single.html">Typescript Introduction</a></h2>
+                      <p>Posted by <a class="blog-admin" href="#">Nimish</a> on <span class="blog-date">8th may, 2017</span></p>
+                    </div>
+                    <p>Typescript is another way to write JavaScript code. It lets you write javascript like you are
+                      writing c# and Java code. Typescript allows you to use object oriented programing concepts like
+                      classes, Interfaces, Namespace and statistically typed. </p>
+                    <div class="blog-footer">
+                      <a target="_blank" href="#"><span class="fa fa-comment"></span>45 Comments</a>
+                      <a target="_blank" href="#"><span class="fa fa-thumbs-o-up"></span>470 Likes</a>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End from blog section -->
+
+  <section id="client">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="client-area">
+            <ul class="client-table">
+              <li><img src="../assets/images/envato.png" alt="client logo"></li>
+              <li><img src="../assets/images/google.png" alt="client logo"></li>
+              <li><img src="../assets/images/amazon.png" alt="client logo"></li>
+              <li><img src="../assets/images/discovery.png" alt="client logo"></li>
+              <li><img src="../assets/images/envato.png" alt="client logo"></li>
+              <li><img src="../assets/images/tuenti.png" alt="client logo"></li>
+              <li><img src="../assets/images/envato.png" alt="client logo"></li>
+              <li><img src="../assets/images/google.png" alt="client logo"></li>
+              <li><img src="../assets/images/amazon.png" alt="client logo"></li>
+              <li><img src="../assets/images/discovery.png" alt="client logo"></li>
+              <li><img src="../assets/images/envato.png" alt="client logo"></li>
+              <li><img src="../assets/images/tuenti.png" alt="client logo"></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Start Contact section -->
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="contact-left wow fadeInLeft">
+            <h2>Contact with us</h2>
+            <address class="single-address">
+              <h4>Headquarters:</h4>
+              <p>547, Second floor, Saraswati Vihar, Gurgaon</p>
+            </address>
+
+            <address class="single-address">
+              <h4>Phone</h4>
+              <p>Phone Number: +91 - 7838481871</p>
+              <p>Fax Number: +91 - 9958552224</p>
+            </address>
+            <address class="single-address">
+              <h4>E-Mail</h4>
+              <p>Support: support@nSquareIT.tech</p>
+
+            </address>
+          </div>
+        </div>
+        <div class="col-md-8 col-sm-6 col-xs-12">
+          <div class="contact-right wow fadeInRight">
+            <h2>Send a message</h2>
+            <!-- <form action="https://formspree.io/nimishgoel056@gmail.com" method="POST" class="contact-form"> -->
+              <form method="POST" action="http://serverlessforms.com/api/form/d6d70919-7075-5649-8c36-495187099cbf/form-response"
+                class="contact-form">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Name">
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" placeholder="Enter Email">
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control"></textarea>
+                </div>
+                <button type="submit" data-text="SUBMIT" class="button button-default"><span>SUBMIT</span></button>
+              </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact section -->
+  <!-- Start Google Map -->
+  <section id="google-map">
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.123349228488!2d77.07982746450605!3d28.475831682479875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d19219c60b879%3A0x81f3057a16bff062!2sSaraswati+Vihar%2C+Chakkarpur%2C+Sector+28%2C+Gurugram%2C+Haryana+122022%2C+India!5e0!3m2!1sen!2sbd!4v1543314570668"
+      width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </section>
+  <!-- End Google Map -->
+
+  <!-- Start Footer -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="footer-top-area">
+              <a class="footer-logo" href="#"><img src="../assets/images/logo.jpg" alt="Logo"></a>
+              <div class="footer-social">
+                <a class="facebook" href="#"><span class="fa fa-facebook"></span></a>
+                <a class="twitter" href="#"><span class="fa fa-twitter"></span></a>
+                <a class="google-plus" href="#"><span class="fa fa-google-plus"></span></a>
+                <a class="youtube" href="#"><span class="fa fa-youtube"></span></a>
+                <a class="linkedin" href="#"><span class="fa fa-linkedin"></span></a>
+                <a class="dribbble" href="#"><span class="fa fa-dribbble"></span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Contact us at <b>+91 -7838481871</b></p>
+      <p>Mail id: <a rel="nofollow" mail="nimishgoel056@gmail.com">nimishgoel056@gmail.com</a></p>
+    </div>
+
+  </footer>
+  <!-- End Footer -->
 <router-outlet></router-outlet>
